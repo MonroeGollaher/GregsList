@@ -47,7 +47,6 @@ export default class CarsController{
     event.preventDefault();
     let form = event.target
     // @ts-ignore
-    console.log(form.bid.value)
     // @ts-ignore
     let bid = form.bid.value
     carsService.bid(id, bid)
